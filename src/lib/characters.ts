@@ -1,4 +1,4 @@
-import { HarryPotterIcon, HermioneGrangerIcon, RonWeasleyIcon, DracoMalfoyIcon } from '@/components/icons';
+import { HarryPotterIcon, HermioneGrangerIcon, RonWeasleyIcon, DracoMalfoyIcon, AlbusDumbledoreIcon, SeverusSnapeIcon, LunaLovegoodIcon, LordVoldemortIcon } from '@/components/icons';
 import type { SVGProps } from 'react';
 
 export type Character = {
@@ -27,5 +27,25 @@ export const characters: Character[] = [
     name: 'Draco Malfoy',
     description: 'The boy who had no choice',
     icon: DracoMalfoyIcon,
+  },
+  {
+    name: 'Albus Dumbledore',
+    description: 'Headmaster of Hogwarts',
+    icon: AlbusDumbledoreIcon,
+  },
+  {
+    name: 'Severus Snape',
+    description: 'Potions Master',
+    icon: SeverusSnapeIcon,
+  },
+  {
+    name: 'Luna Lovegood',
+    description: 'Sees the world differently',
+    icon: LunaLovegoodIcon,
+  },
+  {
+    name: 'Lord Voldemort',
+    description: 'He-Who-Must-Not-Be-Named',
+    icon: LordVoldemortIcon,
   },
 ];

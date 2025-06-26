@@ -82,3 +82,87 @@ export const DracoMalfoyIcon = (props: SVGProps<SVGSVGElement>) => (
     <path d="M21 12a6 6 0 1 1-12 0" />
   </svg>
 );
+
+export const AlbusDumbledoreIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M3 21l8-8" />
+    <path d="M11 13l8-8" />
+    <path d="m9 15 2-2" />
+    <circle cx="7.5" cy="16.5" r="1.5" />
+    <circle cx="11" cy="13" r="1" />
+    <circle cx="14.5" cy="9.5" r="1.5" />
+  </svg>
+);
+
+export const SeverusSnapeIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M10 2h4" />
+    <path d="M10 6h4" />
+    <path d="M12 2v4" />
+    <path d="M6 6.5C6 9 9 11 9 14v4a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-4c0-3 3-5 3-7.5" />
+  </svg>
+);
+
+export const LunaLovegoodIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M4 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0z" />
+    <path d="M16 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0z" />
+    <path d="M12 12h4" />
+    <path d="M8 12H4" />
+    <path d="m5 7 1-2" />
+    <path d="m19 7-1-2" />
+  </svg>
+);
+
+export const LordVoldemortIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2Z" />
+    <path d="M9 10h.01" />
+    <path d="M15 10h.01" />
+    <path d="M8 15s1.5-2 4-2 4 2 4 2" />
+  </svg>
+);
